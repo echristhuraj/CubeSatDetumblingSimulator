@@ -3,8 +3,8 @@ notices attribute credit to the respective copyright holders by listing their pr
 for your contributions.
 
 [**3D Earth Example**](https://www.mathworks.com/matlabcentral/fileexchange/13823-3d-earth-example)
-  Copyright (c) 2013, Ryan Gray
-  All rights reserved.
+Copyright (c) 2013, Ryan Gray
+All rights reserved.
 
   Redistribution and use in source and binary forms, with or without
   modification, are permitted provided that the following conditions are met:
