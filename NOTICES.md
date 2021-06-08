@@ -1,3 +1,5 @@
+# Notices Of Attribution
+
 CubeSat Detumbling Simulator includes modified and/or unmodified versions of copyrighted content from the open source community. The following
 notices attribute credit to the respective copyright holders by listing their project name and full licensing information. The author is grateful
 for your contributions.
