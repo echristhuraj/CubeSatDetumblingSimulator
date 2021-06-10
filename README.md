@@ -54,8 +54,10 @@ cause the simulation results to diverge or the program to crash.
 
 ## References
 
-[1] Montalvo, Carlos. "ADCS for LEO Satellites." _YouTube_. https://www.youtube.com/playlist?list=PL_D7_GvGz-v3mDQ9iR-cfjXsQf4DeR1_H. 
+[1] Curtis, Howard D, _Orbital Mechanics for Engineering Students_, 3rd ed. Embry-Riddle Aeronautical University, Daytona Beach, Florida: Butterworth-Heinemann Elsevier Ltd., 2014.
 
-[2] Sanderson, Grant [3Blue1Brown] and Ben Eater. "Visualizing Quaternions: An explorable video series." _eater.net_. https://eater.net/quaternions/.
+[2] Montalvo, Carlos. "ADCS for LEO Satellites." _YouTube_. https://www.youtube.com/playlist?list=PL_D7_GvGz-v3mDQ9iR-cfjXsQf4DeR1_H. 
 
-[3] Armesto, Leopoldo. "Quaternions | Robotic Systems." _YouTube_. https://www.youtube.com/watch?v=0FbDyWXemLw&t=309s.
+[3] Sanderson, Grant [3Blue1Brown] and Ben Eater. "Visualizing Quaternions: An explorable video series." _eater.net_. https://eater.net/quaternions/.
+
+[4] Armesto, Leopoldo. "Quaternions | Robotic Systems." _YouTube_. https://www.youtube.com/watch?v=0FbDyWXemLw&t=309s.
