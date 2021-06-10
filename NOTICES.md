@@ -1,7 +1,8 @@
 # Notices Of Attribution
 
 CubeSat Detumbling Simulator includes modified and/or unmodified versions of copyrighted content from the open source community. The following
-notices attribute credit to the respective copyright holders by listing their project name and full licensing information. Thank you for your contributions.
+notices attribute credit to the respective copyright holders by listing their project name and full licensing information. Thank you for your
+contributions to the open source community.
 
 [**3D Earth Example**](https://www.mathworks.com/matlabcentral/fileexchange/13823-3d-earth-example)  
 BSD-2-Clause
