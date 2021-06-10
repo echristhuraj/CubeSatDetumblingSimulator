@@ -26,12 +26,19 @@ within the allowable range for each parameter. Run Main.m. A GUI window will pop
 
 ![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
 
-While the simulation is running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar.
+While the simulation is running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar. Once the simulation finishes, a summary
+of run details will be outputted in the MATLAB Command Window.
+
+### Tips
+
+The default orientation of the CubeSat looks something like this:
+
+
 
 ## Limitations
 
-* The orbit model is simplified to only circular orbits (eccentricity = 0) between 200 km and 850 km altitude with nonzero rates of change for argument of periapsis (AOP) and
-right ascension of the ascending node (RAAN) to model the J2 pertubation effect, and zero rates of change for all other Keplerian elements.
+* The orbit model is simplified to only support circular orbits (eccentricity = 0) between 200 km and 850 km altitude with nonzero time rates of change for argument of periapsis 
+(AOP) and right ascension of the ascending node (RAAN) to model the J2 pertubation effect, and zero rates of change for all other Keplerian elements.
 * Disturbance forces and torques on the CubeSat were neglected so that the simplified analytical solution to the gravitational 2-body dynamics equations could be used.
 * The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters such that aliasing, graphical errors, or other issues do not occur as to make the simulation results 
 diverge or the program to crash.
