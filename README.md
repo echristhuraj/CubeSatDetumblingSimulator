@@ -48,5 +48,5 @@ sight" for the orbit plot and the spacecraft plot. In other words, these paramet
 * Disturbance forces and torques on the CubeSat were neglected so that the simplified analytical solution to the gravitational 2-body dynamics equations could be used.
 * The only actuators used in the detumbling algorithm are the 3 magnetorquers and the only sensors used are the magnetometer and the gyroscope (often packaged together in 
 an inertial measurement unit (IMU)).
-* The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters such that aliasing, graphical errors, or other issues do not occur as to make the simulation results 
-diverge or the program to crash.
+* The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters so that aliasing, graphical errors, or other issues do not occur; these issues can potentially cause 
+the simulation results to diverge or the program to crash.
