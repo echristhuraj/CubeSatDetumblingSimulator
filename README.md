@@ -24,7 +24,7 @@ axis magnetorquer set, a magnetometer, and a gyroscope) using a B-dot controller
 Download and unzip the files. Open Main.m in MATLAB. In the "Main Parameters" section, initialize the program by assigning values to each of the parameters, making sure to stay
 within the allowable range for each parameter. Run Main.m. A GUI window will pop up and will update in real-time as the simulation progresses:
 
-![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121482268-d49daf00-c981-11eb-8bc3-a523955ac50d.gif)
+![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
 
 While the simulation is running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar.
 
