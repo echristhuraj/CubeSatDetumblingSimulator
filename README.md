@@ -44,5 +44,7 @@ a body frame rotation sequence relative to the fixed ECI frame (think quaternion
 * The orbit model is simplified to only support circular orbits (eccentricity = 0) between 200 km and 850 km altitude with nonzero time rates of change for argument of periapsis 
 (AOP) and right ascension of the ascending node (RAAN) to model the J2 pertubation effect, and zero rates of change for all other Keplerian elements.
 * Disturbance forces and torques on the CubeSat were neglected so that the simplified analytical solution to the gravitational 2-body dynamics equations could be used.
+* The only actuators used in the detumbling algorithm are the 3 magnetorquers and the only sensors used are the magnetometer and the gyroscope (often packaged together in 
+an inertial measurement unit (IMU)).
 * The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters such that aliasing, graphical errors, or other issues do not occur as to make the simulation results 
 diverge or the program to crash.
