@@ -1,11 +1,11 @@
 # CubeSat Detumbling Simulator
 
-When a satellite such as a CubeSat (a small 10 cm x 10 cm x 10 cm spacecraft) is released from its launch vehicle container, it tumbles about all axes and must be detumbled
-before mission operations can take place. Detumbling is the process of slowing the body angular rates of a satellite down until its attitude (angular orientation) is stabilized in 
-orbit. After a satellite is detumbled, the on-board attitude determination and control system (ADCS) can use deterministic methods to acquire initial attitude measurements with 
+When a satellite such as a CubeSat (a small 10 cm x 10 cm x 10 cm spacecraft) is released from its deployer, it tumbles about all axes and must be detumbled before mission
+operations can take place. Detumbling is the process of slowing the body angular rates of a satellite down until its attitude (angular orientation) is stabilized in orbit
+After a satellite is detumbled, the on-board attitude determination and control system (ADCS) can use deterministic methods to acquire initial attitude measurements with 
 respect to the inertial reference frame (the Earth-centered inertial (ECI) frame), and recursive methods to perform tasks like nadir-pointing and attitude maintenance.
-Written in MATLAB, this CubeSat Detumbling Simulator (originally developed for UCI CubeSat) allows the user to simulate the detumbling phase of a LEO CubeSat (with at least a 3-
-axis magnetorquer set, a magnetometer, and a gyroscope) using a B-dot controller and low pass filters (for sensor noise attenuation) in a closed-loop feedback process.
+Written in MATLAB, this CubeSat Detumbling Simulator (originally developed for UCI CubeSat) allows the user to simulate the detumbling phase of a LEO CubeSat (with at least a 
+3-axis magnetorquer set, a magnetometer, and a gyroscope) using a B-dot controller and low pass filters (for sensor noise attenuation) in a closed-loop feedback process.
 
 ## Requirements
 
@@ -33,7 +33,11 @@ of run details will be outputted in the MATLAB Command Window.
 
 The default orientation of the CubeSat looks something like this:
 
+![cubesat_detumbling_simulator_default_orientation](https://user-images.githubusercontent.com/85334364/121493032-4549c900-c98c-11eb-909b-a1eb8f5ca719.png)
 
+The red/green reference frame is the CubeSat's body frame and the white reference frame is the ECI frame. The `initRollAngl_spcrft`, `initPtchAngl_spcrft`, and 
+`initYawAngl_spcrft` parameters represent how the CubeSat will initially be oriented relative to the ECI frame when ejected from the deployer; these angles define a body frame 
+rotation sequence relative to the fixed ECI frame (think quaternion pre-multiplication).
 
 ## Limitations
 
