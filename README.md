@@ -9,12 +9,12 @@ axis magnetorquer set, a magnetometer, and a gyroscope) using a B-dot controller
 
 ## Requirements
 
-### Hardware
+**Hardware**
 
 * Minimum RAM: 8 GB
 * Recommended: Dedicated Graphics Card
 
-### Software
+**Software**
 
 * MATLAB (Preferably R2020b or later)
 * MATLAB Aerospace Toolbox
