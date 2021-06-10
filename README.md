@@ -1,6 +1,6 @@
 # CubeSat Detumbling Simulator
 
-Once a satellite such as a CubeSat (a small 10 cm x 10 cm x 10 cm spacecraft) is released from its launch vehicle container, it tumbles about all axes and must be detumbled
+When a satellite such as a CubeSat (a small 10 cm x 10 cm x 10 cm spacecraft) is released from its launch vehicle container, it tumbles about all axes and must be detumbled
 before mission operations can take place. Detumbling is the process of slowing the body angular rates of a satellite down until its attitude (angular orientation) is stabilized in 
 orbit. After a satellite is detumbled, the on-board attitude determination and control system (ADCS) can use deterministic methods to acquire initial attitude measurements with 
 respect to the inertial reference frame (the Earth-centered inertial (ECI) frame), and recursive methods to perform tasks like nadir-pointing and attitude maintenance.
