@@ -6,3 +6,9 @@ orbit. After a satellite is detumbled, the on-board attitude determination and c
 respect to the inertial reference frame (the Earth-centered inertial (ECI) frame), and recursive methods to perform tasks like nadir-pointing and attitude maintenance.
 This CubeSat Detumbling Simulator, originally developed for UCI CubeSat, allows the user to simulate the detumbling phase of a LEO CubeSat (with at least a 3-axis magnetorquer 
 set, a magnetometer, and a gyroscope) using a B-dot controller and low pass filters (for sensor noise attenuation) in a closed-loop feedback process.
+
+## Requirements
+
+* MATLAB
+* Aerospace Toolbox
+
