@@ -1,4 +1,4 @@
-# CubeSat Detumbling Simulator
+# CubeSat Detumbling Simulator ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
 
 When a satellite such as a CubeSat (a small 10 cm x 10 cm x 10 cm spacecraft) is released from its deployer, it tumbles about all axes and must be detumbled before mission
 operations can take place. Detumbling is the process of slowing the body angular rates of a satellite down until its attitude (angular orientation) is stabilized in orbit
