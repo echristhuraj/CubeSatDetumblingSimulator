@@ -9,6 +9,13 @@ set, a magnetometer, and a gyroscope) using a B-dot controller and low pass filt
 
 ## Requirements
 
+### Hardware
+
+* Minimum RAM: 8 GB
+* Recommended: Dedicated Graphics Card
+
+### Software
+
 * MATLAB
-* Aerospace Toolbox
+* MATLAB Aerospace Toolbox
 
