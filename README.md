@@ -33,4 +33,5 @@ While the simulation is running, calculation can be paused/continued by toggling
 * The orbit model is simplified to only circular orbits (eccentricity = 0) between 200 km and 850 km altitude with nonzero rates of change for argument of periapsis (AOP) and
 right ascension of the ascending node (RAAN) to model the J2 pertubation effect, and zero rates of change for all other Keplerian elements.
 * Disturbance forces and torques on the CubeSat were neglected so that the simplified analytical solution to the gravitational 2-body dynamics equations could be used.
-* The user should adjust the `<frmeRte_simUI>` and `<simSpdMltplr>` parameters such that aliasing, graphical errors, or other issues do not occur as to make the simulation results diverge or the program to crash.
+* The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters such that aliasing, graphical errors, or other issues do not occur as to make the simulation results 
+diverge or the program to crash.
