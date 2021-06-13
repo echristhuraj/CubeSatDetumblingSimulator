@@ -59,4 +59,4 @@ cause the simulation results to diverge or the program to crash.
 
 [3] Sanderson, Grant [3Blue1Brown] and Ben Eater. "Visualizing Quaternions: An explorable video series." _eater.net_. https://eater.net/quaternions/.
 
-[4] Armesto, Leopoldo. "Quaternions | Robotic Systems." _YouTube_. https://www.youtube.com/watch?v=0FbDyWXemLw&t=309s.
+[4] Armesto, Leopoldo. "Quaternions: Robotic Systems." _YouTube_. https://www.youtube.com/watch?v=0FbDyWXemLw&t=309s.
