@@ -54,9 +54,9 @@ inrtaTnsr_spcrft = [0.0108, 0,      0;
                     0,      0,      0.0043]; %[kg-m^2] *Range: inrtaTnsr_spcrft > [0, 0, 0;
                                              %                                     0, 0, 0;
                                              %                                     0, 0, 0]*
-initRollAngl_spcrft = 0; %[deg] *Range: 0 ≤ initRollAngl_spcrft < 360*
-initPtchAngl_spcrft = 0; %[deg] *Range: 0 ≤ initPtchAngl_spcrft < 360*
 initYawAngl_spcrft = 0; %[deg] *Range: 0 ≤ initYawAngl_spcrft < 360*
+initPtchAngl_spcrft = 0; %[deg] *Range: 0 ≤ initPtchAngl_spcrft < 360*
+initRollAngl_spcrft = 0; %[deg] *Range: 0 ≤ initRollAngl_spcrft < 360*
 initBdyAnglrRteX_spcrft = 0.5; %[deg/s] *Range: initBdyAnglrRteX_spcrft ≥ 0*
 initBdyAnglrRteY_spcrft = 1; %[deg/s] *Range: initBdyAnglrRteY_spcrft ≥ 0*
 initBdyAnglrRteZ_spcrft = 2; %[deg/s] *Range: initBdyAnglrRteZ_spcrft ≥ 0*
