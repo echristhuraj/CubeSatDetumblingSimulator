@@ -33,8 +33,8 @@ of run details will be outputted in the MATLAB Command Window. The user is free 
 ### Tips
 
 1. The default orientation of the CubeSat looks something like the image below. The red/green reference frame is the CubeSat's body frame and the white reference frame is the 
-ECI frame. The `initRollAngl_spcrft` (about X), `initPtchAngl_spcrft` (about Y), and `initYawAngl_spcrft` (about Z) parameters represent how the CubeSat will initially be 
-oriented relative to the ECI frame when ejected from the deployer; these angles define a body frame rotation sequence relative to the fixed ECI frame (think quaternion pre-multiplication).
+ECI frame. The `initYawAngl_spcrft` (about body Z), `initPtchAngl_spcrft` (about body Y), and `initRollAngl_spcrft` (about body X) parameters (in that order) define the 
+intrinsic body frame rotation sequence that represents how the CubeSat will initially be oriented relative to the ECI frame when ejected from the deployer.
 
 ![cubesat_detumbling_simulator_default_orientation](https://user-images.githubusercontent.com/85334364/121497796-a7a4c880-c990-11eb-887e-9441a1702171.png)
 
