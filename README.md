@@ -28,7 +28,7 @@ within the allowable range for each parameter. Run Main.m. A GUI window will pop
 ![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
 
 While the simulation is running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar. Once the simulation finishes, a summary
-of run details will be outputted in the MATLAB Command Window. The user is free to edit the code however they would like to customize/personalize their simulation output.
+of run details will be outputted in the MATLAB Command Window. The user is free to edit the code as desired to customize/personalize their simulation output.
 
 ### Tips
 
