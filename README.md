@@ -48,7 +48,7 @@ sight" for the orbit plot and the spacecraft plot. In other words, these paramet
 (AOP) and right ascension of the ascending node (RAAN) to model the J2 pertubation effect, and zero rates of change for all other Keplerian elements.
 * Disturbance forces and torques on the CubeSat were neglected so that the simplified analytical solution to the gravitational 2-body dynamics equations could be used.
 * The only actuators used in the detumbling algorithm are the 3 magnetorquers and the only sensors used are the magnetometer and the gyroscope (often packaged together in 
-an inertial measurement unit (IMU)). Obviously, due to the nature of this being a non-HIL simulation, the sensor "measurements" are just direct functions of the simulator models
+an inertial measurement unit (IMU)). Obviously, due to the nature of this being a simulation, the sensor "measurements" are just direct functions of the simulator models
 with the addition of white Gaussian noise and constant bias.
 * Euler's method (RK-1) is used for iterative computations as opposed to something like Runge-Kutta 4 (RK-4) to prioritize computational speed over accuracy.
 * The user should adjust the `frmeRte_simUI` and `simSpdMltplr` parameters so that aliasing, graphical errors, or other issues do not occur; these issues can potentially 
