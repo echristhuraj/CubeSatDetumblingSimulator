@@ -58,7 +58,8 @@ sight" for the orbit plot and the spacecraft plot. In other words, these paramet
 * The only actuators used in the detumbling algorithm are the 3 magnetorquers and the only sensors used are the magnetometer and the gyroscope (often packaged together in 
 an inertial measurement unit (IMU)). Obviously, due to the nature of this being a non-HIL simulation, the sensor "measurements" are just direct functions of the simulator models
 with the addition of white Gaussian noise and constant bias.
-* Euler's method (RK-1) is used for iterative computations as opposed to something like Runge-Kutta 4 (RK-4) to prioritize computational speed over accuracy.
+* Euler's method (RK-1) is used for iterative computations as opposed to something like Runge-Kutta 4 (RK-4) to prioritize computational speed over accuracy. The user may
+replace RK-1 computations with RK-4 (or other iterative methods) if higher accuracy is desired.
 
 ## References
 
