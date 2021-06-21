@@ -23,8 +23,10 @@ Written in MATLAB, this CubeSat Detumbling Simulator (originally developed for U
 ## Usage
 
 Download and unzip the files. Open Main.m in MATLAB. In the "Main Parameters" section, initialize the program by assigning values to each of the parameters, making sure to stay
-within the allowable range for each parameter. Run Main.m. If the `simProcssngMdfier` parameter is set to 'Real-Time', a GUI window will pop up and will update in real-time as 
-the simulation progresses. While the real-time simulation is running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar:
+within the allowable range for each parameter. Run Main.m. 
+
+If the `simProcssngMdfier` parameter is set to 'Real-Time', a GUI window will pop up and will update in real-time as the simulation progresses. While the real-time simulation is 
+running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar.
 
 ![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
 
@@ -32,8 +34,9 @@ If the `simProcssngMdfier` parameter is set to 'Pre-Calculate', the program will
 the GUI window will appear showing the final output. Pre-calculation is significantly faster and potentially a bit more accurate as sampling periods are pre-determined and
 MATLAB's [clock](https://www.mathworks.com/help/matlab/ref/clock.html) function is not needed for timing.
 
-Once the simulation finishes, a summary of run details will be outputted in the MATLAB Command Window. The user is free to edit the code as desired to customize/personalize 
-their simulation output.
+![cubesat_detumbling_simulator_pre_calculation](https://user-images.githubusercontent.com/85334364/122731744-7352c700-d230-11eb-9374-2c20a6235b1a.png)
+
+Once the simulation finishes, a summary of run details will be outputted in the MATLAB Command Window. The code may be edited as desired for customized simulation outputs.
 
 ### Tips
 
