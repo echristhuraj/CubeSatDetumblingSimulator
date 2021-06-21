@@ -25,12 +25,12 @@ Written in MATLAB, this CubeSat Detumbling Simulator (originally developed for U
 Download and unzip the files. Open Main.m in MATLAB. In the "Main Parameters" section, initialize the program by assigning values to each of the parameters, making sure to stay
 within the allowable range for each parameter. Run Main.m. 
 
-If the `simProcssngMdfier` parameter is set to 'Real-Time', a GUI window will pop up and will update in real-time as the simulation progresses. While the real-time simulation is 
+If the `simCalcltnMdfier` parameter is set to 'Real-Time', a GUI window will pop up and will update in real-time as the simulation progresses. While the real-time simulation is 
 running, calculation can be paused/continued by toggling the pause/play button under the simulation progress bar.
 
 ![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
 
-If the `simProcssngMdfier` parameter is set to 'Pre-Calculate', the program will run the simulation without real-time updates to the GUI. After the pre-calculations finish,
+If the `simCalcltnMdfier` parameter is set to 'Pre-Calculate', the program will run the simulation without real-time updates to the GUI. After the pre-calculations finish,
 the GUI window will appear showing the final output. Pre-calculation is significantly faster and potentially a bit more accurate as sampling periods are pre-determined and
 MATLAB's [clock](https://www.mathworks.com/help/matlab/ref/clock.html) function is not needed for timing.
 
