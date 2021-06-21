@@ -23,7 +23,7 @@ Written in MATLAB, this CubeSat Detumbling Simulator (originally developed for U
 ## Usage
 
 Download and unzip the files. Open Main.m in MATLAB. In the "Main Parameters" section, initialize the program by assigning values to each of the parameters, making sure to stay
-within the allowable range for each parameter. Run Main.m. If the `simProcssngMdfier` parameter is set to 'Real-Time' a GUI window will pop up and will update in real-time as 
+within the allowable range for each parameter. Run Main.m. If the `simProcssngMdfier` parameter is set to 'Real-Time', a GUI window will pop up and will update in real-time as 
 the simulation progresses:
 
 ![cubesat_detumbling_simulator_gui](https://user-images.githubusercontent.com/85334364/121489877-5cd38280-c989-11eb-8aa6-63696955615f.gif)
