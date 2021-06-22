@@ -32,7 +32,7 @@ running, calculation can be paused/continued by toggling the pause/play button u
 
 If the `simCalcltnMdfier` parameter is set to 'Pre-Calculate', the program will run the simulation without real-time updates to the GUI. After the pre-calculations finish,
 the GUI window will appear showing the final output. Pre-calculation is significantly faster and potentially a bit more accurate as sampling periods are pre-determined and
-MATLAB's [clock](https://www.mathworks.com/help/matlab/ref/clock.html) function is not needed for timing.
+MATLAB's [clock](https://www.mathworks.com/help/matlab/ref/clock.html) and [etime](https://www.mathworks.com/help/matlab/ref/etime.html) functions are not needed for timing.
 
 ![cubesat_detumbling_simulator_pre_calculation](https://user-images.githubusercontent.com/85334364/122731744-7352c700-d230-11eb-9374-2c20a6235b1a.png)
 
