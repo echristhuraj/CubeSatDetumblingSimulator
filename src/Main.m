@@ -17,12 +17,12 @@
 % Revisions:
 %
 % 1.1.1                                     01/18/2023 | Edwin Christhuraj
-% Comments: Replaced Euler's method propagation of body angular rates with
-% Runga-Kutta 4 to reduce time step errors and allow higher initial angular
-% rates to be simulated without run-time errors. Adjusted if-statement
-% hierarchy to take both magnetometer and gyroscope measurements before
-% magnetorquer activation. Corrected "crrnt_mgntrqrs" formula to use
-% "msurdBdyMgntcFld" instead of "bdyMgntcFld_spcrft."
+% Comments: Replaced Euler's method propagation of body angular velocity
+% rates with Runga-Kutta 4 to reduce time step errors and allow higher
+% initial angular velocity rates to be simulated without run-time errors.
+% Adjusted if-statement hierarchy to take both magnetometer and gyroscope
+% measurements before magnetorquer activation. Corrected "crrnt_mgntrqrs"
+% formula to use "msurdBdyMgntcFld" instead of "bdyMgntcFld_spcrft."
 %
 % 1.0.0                                     06/21/2021 | Edwin Christhuraj
 % Comments: Original Release.
