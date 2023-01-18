@@ -18,7 +18,7 @@
 %
 % 1.1.1                                     01/18/2023 | Edwin Christhuraj
 % Comments: Replaced Euler's method propagation of body angular velocity
-% rates with Runga-Kutta 4 to reduce time step errors and allow higher
+% rates with Runga-Kutta 4 to reduce truncation errors and allow higher
 % initial angular velocity rates to be simulated without run-time errors.
 % Adjusted if-statement hierarchy to take both magnetometer and gyroscope
 % measurements before magnetorquer activation. Corrected "crrnt_mgntrqrs"
